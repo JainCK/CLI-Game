@@ -44,124 +44,119 @@ async function main() {
     p.intro(`${gradient.cristal('Ready to twist your brain into a pretzel? Buckle up, riddles are coming!')}`);
 
     const question1 = new Question(
-        '1) I have keys but open no locks. I have space but no room. You can enter, but you can\'t go inside. What am I?',
+        '1) I am a programming language with no spoken words. What am I?',
         [
-            "Keyboard",
-            "Door",
-            "Wallet",
-            "Car"
+            "JavaScript",
+            "Python",
+            "C++",
+            "Java"
         ],
-        2,
+        0,
         "s",
-        "a",
-
+        "a"
     );
     
     const question2 = new Question(
-        '2) The more you take, the more you leave behind. What am I?',
+        '2) I have bugs, but I am not an insect. What am I?',
         [
-            "Footsteps",
-            "Breath",
-            "Thoughts",
-            "Memories"
+            "Computer Program",
+            "Picnic",
+            "Garden",
+            "Campfire"
         ],
-        3,
+        0,
     );
     
     const question3 = new Question(
-        '3) I can be cracked, made, told, and played. What am I?',
+        '13) I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?',
         [
-            "Joke",
-            "Egg",
-            "Record",
-            "Game"
+            "Radio",
+            "Windmill",
+            "Echo",
+            "Cloud"
         ],
-        0,
-      
+        2,
     );
     
     const question4 = new Question(
-        '4) What has keys but can\'t open locks?',
+        `4) I'm a loop that never ends. What am I?`,
         [
-            "Piano",
-            "Computer",
-            "Typewriter",
-            "Chest"
+            "Infinity",
+            "Circle",
+            "Repetition",
+            "Spiral"
         ],
-        2,
-     
+        0,
     );
     
     const question5 = new Question(
-        `5) I'm tall when I'm young and short when I'm old. What am I?`,
+        '5) I am a variable that never changes. What am I?',
         [
-            "Tree",
-            "Candle",
-            "Book",
-            "Clock"
+            "Constant",
+            "Mutable",
+            "Dynamic",
+            "Static"
         ],
-        2,
-       
+        3,
+        "s",
+        "a"
     );
     
     const question6 = new Question(
-        '6) The more you have of it, the less you see. What is it?',
+        `6) I'm always in classes but never attending. What am I?`,
         [
-            "Darkness",
-            "Wisdom",
-            "Money",
-            "Love"
+            "Teacher",
+            "Student",
+            "Homework",
+            "Calendar"
         ],
-        0,
-      
+        2,
     );
     
     const question7 = new Question(
-        '7) What has a heart that doesn\'t beat?',
+        `7) I'm the result of 1 + 1, but I'm not 2. What am I?`,
         [
-            "Artichoke",
-            "Robot",
-            "Clock",
-            "Cabbage"
+            "Window",
+            "Sum",
+            "Reflection",
+            "Addition"
         ],
-        3,
-       
+        2,
     );
     
     const question8 = new Question(
-        '8) I have keys but no locks. I have space but no room. You can enter, but you can\'t go inside. What am I?',
+        `8) I have arrays of jokes, but I'm not a comedian. What am I?`,
         [
-            "Keyboard",
-            "Car",
-            "Wallet",
-            "Door"
+            "Stand-up Special",
+            "Book",
+            "Database",
+            "Library"
         ],
-        0,
-        
+        2,
     );
     
     const question9 = new Question(
-        '9) What comes once in a minute, twice in a moment, but never in a thousand years?',
+        `9) I'm a function that never gets called. What am I?`,
         [
-            "Opportunity",
-            "Chance",
-            "Regret",
-            "Success"
+            "Unused Code",
+            "Telephone",
+            "Echo",
+            "Alarm"
         ],
-        1,
-      
+        0,
     );
     
     const question10 = new Question(
-        '10) I can be cracked, made, told, and played. What am I?',
+        `10) I'm a language with no grammar, yet I communicate with machines. What am I?`,
         [
-            "Joke",
-            "Egg",
-            "Record",
-            "Game"
+            "HTML",
+            "English",
+            "Binary",
+            "Emoji"
         ],
-        0,
-      
+        2,
+        "s",
+        "a"
     );
     
 
